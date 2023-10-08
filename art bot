@@ -84,4 +84,4 @@ async def fox(ctx):
     image_url = get_fox_image_url()
     await ctx.send(image_url)
 
-bot.run("MTE1NTg2OTM0NzQ5MTg3NjkyNA.GgBI7E.9JVAei-RN_jNARsXgBtmkmrelxWaxpQGjYxw9s")
+bot.run("###############################")
