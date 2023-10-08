@@ -73,7 +73,7 @@ async def duck(ctx):
 
 def get_fox_image_url():    
     url = 'https://randomfox.ca/floof/'
-    res = requests.get(image)
+    res = requests.get(url)
     data = res.json()
     return data['image']
 
@@ -84,4 +84,14 @@ async def fox(ctx):
     image_url = get_fox_image_url()
     await ctx.send(image_url)
 
-bot.run("###############################")
+
+
+
+
+
+
+
+
+bot.run("")
+
+    
